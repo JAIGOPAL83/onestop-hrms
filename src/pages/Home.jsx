@@ -27,7 +27,7 @@ const Home = () => {
                         Edit <code>src/App.js</code> and save to reload.
                         </p>
                         <main>
-                            <h1>Hello User {user.username}</h1>
+                            <h1>Hello User --- {user.username}</h1>
                             <button onClick={signOut}>Sign out</button>
                         </main>
                         <a
