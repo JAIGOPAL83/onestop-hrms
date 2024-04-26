@@ -14,5 +14,5 @@ phases:
       - npm run build
   post_build:
     commands:
-      - aws s3 sync build/ s3://users-processing-management
+      - aws s3 sync build/ s3://onestop-hrms
       - echo Build completed on `date`
